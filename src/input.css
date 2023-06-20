@@ -2,6 +2,17 @@
 @tailwind components;
 @tailwind utilities;
 
-body {
-  font-family: 'Mulish', sans-serif;
+.section-gradient{
+background: linear-gradient(274.03deg, #06B6D4 0%, #0E7490 0.01%, #0284C7 100%);
+}
+.section-gradient-2{
+background: linear-gradient(270deg, #F6F8FB 1.58%, #F2F5F9 100%);}
+.pricing{
+background: linear-gradient(274.03deg, #06B6D4 0%, #0284C7 100%);
+}
+.shadow-box{
+  box-shadow: inset 0px 3px 10px rgba(255, 255, 255, 0.5);
+}
+.home_gradient{
+  background: linear-gradient(180deg, rgba(165, 243, 252, 0.1) 23.31%, rgba(165, 243, 252, 0.05) 109.14%);
 }
