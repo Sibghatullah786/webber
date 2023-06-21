@@ -18,8 +18,7 @@ module.exports = {
         'black':'#27272A',
         'gradient':'#06B6D4',
         'gradient':'#0E7490',
-        'gradient':'#0284C7',
-        
+        'gradient':'#0284C7',        
       },
       backgroundImage:{
         'section-gradient': 'linear-gradient(274.03deg, #06B6D4 0%, #0E7490 0.01%, #0284C7 100%)'
