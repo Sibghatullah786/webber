@@ -22,7 +22,7 @@
       <div class="home_gradient pb-[104px]">
         <header>
           <div
-            class="head flex justify-between max-w-[1280px] pt-[30px] w-full mx-auto items-center"
+            class=" px-5 head flex justify-between max-w-[1280px] lg:pt-[30px] w-full mx-auto items-center"
           >
             <div class="logo pt-4">
               <a href=""><img src="./assests/img/logo.svg" alt="" /></a>
@@ -34,19 +34,17 @@
                 >
               </p>
             </div>
-            <nav>
-              <div class="">
-                <ul class="flex gap-[30px] text-[#18181B]">
-                  <li>
-                    <a class="border-b pb-[6px] border-[#18181B]" href="#"
-                      >Overview</a
-                    >
-                  </li>
-                  <li><a href="./pricing.html">Pricing</a></li>
-                  <li><a href="./casestudy.html">Case Studies</a></li>
-                  <li><a href="./index.html">FAQ</a></li>
-                </ul>
-              </div>
+            <nav class="sm:block hidden">
+              <ul class="flex gap-[30px] text-[#18181B]">
+                <li>
+                  <a class="border-b pb-[6px] border-[#18181B]" href="#"
+                    >Overview</a
+                  >
+                </li>
+                <li><a href="#FAQ">Pricing</a></li>
+                <li><a href="./casestudy.html">Case Studies</a></li>
+                <li><a href="./pricing.html#FAQ">FAQ</a></li>
+              </ul>
             </nav>
             <div class="signin-button">
               <button
@@ -58,12 +56,12 @@
           </div>
         </header>
         <h1
-          class="text-8xl font-black max-w-[981px] w-full mx-auto text-center leading-[115px] mt-[115px] text-[#1F2937]"
+          class="text-5xl leading-[50px] lg:text-8xl font-black max-w-[981px] w-full mx-auto text-center lg:leading-[115px] mt-[115px] text-[#1F2937]"
         >
           DEPLOY YOUR FRONT-END
         </h1>
 
-        <div class="flex justify-center gap-5 mt-[78px]">
+        <div class="flex flex-col items-center md:flex-row justify-center gap-5 mt-[78px]">
           <div class="button1 section-gradient">
             <button
               class="px-[32px] py-[16px] font-normal text-[18px] leading-[18px] text-white"
@@ -102,11 +100,11 @@
       <!-- Features Row -->
       <div class="features-row max-w-[1110px] w-full mx-auto">
         <h1
-          class="text-6xl mt-[169px] font-black text-center text-[#1F2937] leading-[60px] max-w-[667px] w-full mx-auto"
+          class="text-4xl lg:text-6xl pt-[80px] lg:mt-[169px] font-black text-center text-[#1F2937] leading-[60px] max-w-[667px] w-full mx-auto"
         >
           Tailor-made features
         </h1>
-        <div class="feature-row1 grid grid-cols-3 mt-[91px] gap-[30px]">
+        <div class="grid-cols-1 feature-row1 grid lg:grid-cols-3 mt-[60px] lg:mt-[91px] gap-[30px]">
           <div class="col1">
             <img
               class="mx-auto"
@@ -146,7 +144,7 @@
             </p>
           </div>
         </div>
-        <div class="feature-row1 grid grid-cols-3 mt-[64px] gap-[30px]">
+        <div class="grid-cols-1 feature-row1 grid lg:grid-cols-3 mt-[64px] gap-[30px]">
           <div class="col1">
             <img
               class="mx-auto"
