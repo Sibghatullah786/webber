@@ -22,7 +22,7 @@
       <div class="home_gradient pb-[104px]">
         <header>
           <div
-            class=" px-5 head flex justify-between max-w-[1280px] lg:pt-[30px] w-full mx-auto items-center"
+            class="px-5 head flex justify-between max-w-[1280px] lg:pt-[30px] w-full mx-auto items-center"
           >
             <div class="logo pt-4">
               <a href=""><img src="./assests/img/logo.svg" alt="" /></a>
@@ -48,9 +48,10 @@
             </nav>
             <div class="signin-button">
               <button
-                class="bg-cyan-100 px-[20px] py-[12px] text-[#0E7490] text-[14px] font-normal leading-[14px]"
+                class="bg-cyan-100 px-[20px] py-[12px] text-[#0E7490] text-[14px] font-normal leading-[14px] md:visible"
               >
-                Sign In
+              <img class="block visible md::block md:hidden" src="./assests/img/bars-solid.svg" alt="">
+                <a class="invisible md:visible" href="">Sign In</a>
               </button>
             </div>
           </div>
@@ -61,7 +62,9 @@
           DEPLOY YOUR FRONT-END
         </h1>
 
-        <div class="flex flex-col items-center md:flex-row justify-center gap-5 mt-[78px]">
+        <div
+          class="flex flex-col items-center md:flex-row justify-center gap-5 mt-[78px]"
+        >
           <div class="button1 section-gradient">
             <button
               class="px-[32px] py-[16px] font-normal text-[18px] leading-[18px] text-white"
@@ -79,32 +82,35 @@
         </div>
       </div>
       <div
-        class="max-w-[1280px] w-full h-[268px] mx-auto section-gradient"
+        class="max-w-[90%] lg:max-w-[1280px] w-full h-[15%] md:h-[20%] lg:h-[268px] mx-auto section-gradient"
       ></div>
       <div
-        class="section-gradient-2 max-w-[947px] h-[628px] w-full mx-auto rounded-[12px] mt-[-160px] shadow-inner"
+        class="section-gradient-2 max-w-[80%] lg:max-w-[947px] h-[30%] md:h-[50%] lg:h-[628px] w-full mx-auto rounded-[12px] mt-[-80px] md:mt-[-120px] lg:mt-[-160px] shadow-inner"
       >
         <div class="flex">
           <div class="pt-[15px] pl-[21px]">
-            <img src="./assests/img/Browser-buttons.svg" alt="" />
+            <img class= md:max-w-[80%]" src="./assests/img/Browser-buttons.svg"
+            alt="" />
           </div>
           <div
-            class="max-w-[645px] w-full h-[24px] bg-white mx-auto my-[9px]"
+            class="max-w-[60%] md:max-w-[70%] lg:max-w-[645px] w-full h-[24px] bg-white mx-auto my-[9px]"
           ></div>
         </div>
         <div
-          class="max-w-[933px] h-[580px] bg-white w-full top-[41px] mx-[6px]"
+          class="max-w-[97.5%] lg:max-w-[933px] h-[80%] md:h-[90%] lg:h-[580px] bg-white w-full top-[41px] mx-[6px]"
         ></div>
       </div>
 
       <!-- Features Row -->
       <div class="features-row max-w-[1110px] w-full mx-auto">
         <h1
-          class="md:text-4xl lg:text-6xl pt-[80px] text-3xl  lg:mt-[169px] font-black text-center text-[#1F2937] leading-[60px] max-w-[667px] w-full mx-auto"
+          class="md:text-4xl lg:text-6xl pt-[80px] text-3xl lg:mt-[169px] font-black text-center text-[#1F2937] leading-[60px] max-w-[667px] w-full mx-auto"
         >
           Tailor-made features
         </h1>
-        <div class="grid-cols-1 md:grid-cols-2 feature-row1 grid lg:grid-cols-3 mt-[60px] lg:mt-[91px] px-[20px] lg:px-0 gap-[30px]">
+        <div
+          class="grid-cols-1 md:grid-cols-2 feature-row1 grid lg:grid-cols-3 mt-[60px] lg:mt-[91px] px-[20px] lg:px-0 gap-[30px]"
+        >
           <div class="col1">
             <img
               class="mx-auto"
@@ -114,7 +120,9 @@
             <h1 class="text-center text-gray-800 text-[24px] mt-6 mb-2">
               Robust workflow
             </h1>
-            <p class="text-gray-600 text-[15px] lg:text-[18px] leading-7 text-center">
+            <p
+              class="text-gray-600 text-[15px] lg:text-[18px] leading-7 text-center"
+            >
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed erat
               nibh tristique.
             </p>
@@ -128,7 +136,9 @@
             <h1 class="text-center text-gray-800 text-[24px] mt-6 mb-2">
               Flexibility
             </h1>
-            <p class="text-gray-600 text-[15px] lg:text-[18px] leading-7 text-center">
+            <p
+              class="text-gray-600 text-[15px] lg:text-[18px] leading-7 text-center"
+            >
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed erat
               nibh tristique.
             </p>
@@ -138,13 +148,15 @@
             <h1 class="text-center text-gray-800 text-[24px] mt-6 mb-2">
               User friendly
             </h1>
-            <p class="text-gray-600 text-[15px] lg:text-[18px] leading-7 text-center">
+            <p
+              class="text-gray-600 text-[15px] lg:text-[18px] leading-7 text-center"
+            >
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed erat
               nibh tristique.
             </p>
           </div>
-        <!-- </div> -->
-        <!-- <div class="grid-cols-1 md:grid-cols-2 feature-row1 grid lg:grid-cols-3 px:[50px] mt-[40px] lg:mt-[64px] gap-[30px]"> -->
+          <!-- </div> -->
+          <!-- <div class="grid-cols-1 md:grid-cols-2 feature-row1 grid lg:grid-cols-3 px:[50px] mt-[40px] lg:mt-[64px] gap-[30px]"> -->
           <div class="col1">
             <img
               class="mx-auto"
@@ -154,7 +166,9 @@
             <h1 class="text-center text-gray-800 text-[24px] mt-6 mb-2">
               Multiple Layouts
             </h1>
-            <p class="text-gray-600 text-[15px] lg:text-[18px] leading-7 text-center">
+            <p
+              class="text-gray-600 text-[15px] lg:text-[18px] leading-7 text-center"
+            >
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed erat
               nibh tristique.
             </p>
@@ -168,7 +182,9 @@
             <h1 class="text-center text-gray-800 text-[24px] mt-6 mb-2">
               Better components
             </h1>
-            <p class="text-gray-600 text-[15px] lg:text-[18px] leading-7 text-center">
+            <p
+              class="text-gray-600 text-[15px] lg:text-[18px] leading-7 text-center"
+            >
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed erat
               nibh tristique.
             </p>
@@ -182,7 +198,9 @@
             <h1 class="text-center text-gray-800 text-[24px] mt-6 mb-2">
               Well Organised
             </h1>
-            <p class="text-gray-600 text-[15px] lg:text-[18px] leading-7 text-center">
+            <p
+              class="text-gray-600 text-[15px] lg:text-[18px] leading-7 text-center"
+            >
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed erat
               nibh tristique.
             </p>
@@ -197,7 +215,9 @@
         >
           How it works
         </h1>
-        <div class="step-row lg:mt-[130px] flex-col-reverse items-center flex lg:flex-row justify-between">
+        <div
+          class="step-row lg:mt-[130px] flex-col-reverse items-center flex lg:flex-row justify-between"
+        >
           <div class="step-col-left mt-[80px] lg:mx-0 mx-5">
             <h1
               class="font-extrabold lg:mx-0 ml-5 text-[30px] lg:text-[48px] leading-[55px] text-[#1F2937]"
@@ -213,14 +233,15 @@
               enim, malesuada mattis. Dignissim nibh augue posuer
             </p>
             <div class="flex items-center justify-between">
-             
-                <button class="text-white ml-5 lg:m-0 px-[32px] py-[16px] section-gradient">
-                  Learn more
-                </button>
+              <button
+                class="text-white ml-5 lg:m-0 px-[32px] py-[16px] section-gradient"
+              >
+                Learn more
+              </button>
               <div class="flex items-center justify-between gap-5">
-                  <button>
-                    <img src="./assests/img/Arrow 4.svg" alt="" />
-                  </button>
+                <button>
+                  <img src="./assests/img/Arrow 4.svg" alt="" />
+                </button>
                 <div class="pr-5">
                   <button class="py-[20px] px-[20px] rounded-full bg-cyan-600">
                     <img
@@ -233,7 +254,9 @@
               </div>
             </div>
           </div>
-          <div class="step-col-right pt-[100px] lg:mt-0 max-w-[75%] lg:max-w-[100%]">
+          <div
+            class="step-col-right pt-[100px] lg:mt-0 max-w-[75%] lg:max-w-[100%]"
+          >
             <img class="" src="./assests/img/iphone-background.svg" alt="" />
             <img
               class="mt-[-400px] md:mt-[-530px] absolute max-w-[50%] lg:max-w-[100%]"
@@ -283,24 +306,62 @@
         >
           Brands using our services
         </h1>
-        <div class="row1 grid grid-cols-2 md:grid-cols-4 mt-[75px] mx-auto cursor-pointer">
-          <img src="./assests/img/logos-section/Microsoft Logo.svg" alt="" />
-          <img src="./assests/img/logos-section/OYO Logo.svg" alt="" />
-          <img src="./assests/img/logos-section/Walmart Logo.svg" alt="" />
-          <img src="./assests/img/logos-section/airbnb.svg" alt="" />
+        <div
+          class="row1 grid grid-cols-2 md:grid-cols-4 mt-[75px] mx-auto cursor-pointer"
+        >
+          <img
+            class="mx-auto"
+            src="./assests/img/logos-section/Microsoft Logo.svg"
+            alt=""
+          />
+          <img
+            class="mx-auto"
+            src="./assests/img/logos-section/OYO Logo.svg"
+            alt=""
+          />
+          <img
+            class="mx-auto"
+            src="./assests/img/logos-section/Walmart Logo.svg"
+            alt=""
+          />
+          <img
+            class="mx-auto"
+            src="./assests/img/logos-section/airbnb.svg"
+            alt=""
+          />
         </div>
-        <div class="row2 grid grid-cols-2 md:grid-cols-4 mt-[32px] cursor-pointer">
-          <img src="./assests/img/logos-section/FedEx Logo.svg" alt="" />
-          <img src="./assests/img/logos-section/BookMyShow Logo.svg" alt="" />
-          <img src="./assests/img/logos-section/Amazon Logo.svg" alt="" />
-          <img src="./assests/img/logos-section/Google Logo.svg" alt="" />
+        <div
+          class="row2 grid grid-cols-2 md:grid-cols-4 mt-[32px] cursor-pointer"
+        >
+          <img
+            class="mx-auto"
+            src="./assests/img/logos-section/FedEx Logo.svg"
+            alt=""
+          />
+          <img
+            class="mx-auto"
+            src="./assests/img/logos-section/BookMyShow Logo.svg"
+            alt=""
+          />
+          <img
+            class="mx-auto"
+            src="./assests/img/logos-section/Amazon Logo.svg"
+            alt=""
+          />
+          <img
+            class="mx-auto"
+            src="./assests/img/logos-section/Google Logo.svg"
+            alt=""
+          />
         </div>
       </div>
 
       <!-- Number-Row -->
-      <div class="mt-[100px] lg:mt-[299px] section-gradient mx-auto relative pb-[200px]">
+      <div
+        class="mt-[100px] lg:mt-[299px] section-gradient mx-auto relative pb-[100px] lg:pb-[200px]"
+      >
         <h1
-          class=" text-[40px] lg:text-[60px] font-extrabold text-white text-center leading-[60px] pt-[80px]"
+          class="text-[40px] lg:text-[60px] font-extrabold text-white text-center leading-[60px] pt-[80px]"
         >
           By the numbers
         </h1>
@@ -311,10 +372,10 @@
         </p>
 
         <div
-          class="number-box max-w-[1116px] w-full right-0 left-0 md:mx-auto grid lg:grid-cols-4 md:grid-cols-2 justify-center gap-8 pt-[80px] lg:absolute"
+          class="number-box max-w-[1116px] w-full right-0 left-0 md:mx-auto grid lg:grid-cols-4 md:grid-cols-2 gap-8 pt-[80px] lg:absolute"
         >
           <div
-            class="max-w-[255px] w-full py-[70px] rounded-2xl bg-white flex justify-center shadow"
+            class="max-w-[255px] w-full py-[70px] rounded-2xl bg-white flex justify-center shadow mx-auto"
           >
             <div class="m-auto">
               <h1
@@ -329,7 +390,7 @@
           </div>
 
           <div
-            class="max-w-[255px] w-full py-[70px] rounded-2xl bg-white flex justify-center shadow"
+            class="max-w-[255px] w-full py-[70px] rounded-2xl bg-white flex justify-center shadow mx-auto"
           >
             <div class="m-auto">
               <h1
@@ -344,7 +405,7 @@
           </div>
 
           <div
-            class="max-w-[255px] w-full py-[70px] rounded-2xl bg-white flex justify-center shadow"
+            class="max-w-[255px] w-full py-[70px] rounded-2xl bg-white flex justify-center shadow mx-auto"
           >
             <div class="m-auto">
               <h1
@@ -359,7 +420,7 @@
           </div>
 
           <div
-            class="max-w-[255px] w-full py-[70px] rounded-2xl bg-white flex justify-center shadow"
+            class="max-w-[255px] w-full py-[70px] rounded-2xl bg-white flex justify-center shadow mx-auto"
           >
             <div class="m-auto">
               <h1
@@ -392,115 +453,116 @@
       </div>
 
       <!-- Footer -->
-<footer class="bg-gray-100">
-      <div class="grid md:grid-cols-2 lg:grid-cols-3 py-20 md:px-28 pl-10 gap-y-14 justify-between md:gap-10 lg:gap-32 max-w-[1440px] w-full mx-auto">
-        <div class="col1 max-w-[480px] w-full">
-          <a href=""><img src="./assests/img/logo.svg" alt="" /></a>
-          <p class="font-bold"><a href="#">WEBBER</a></p>
-          <p class="pt-[32px]">Copyright © 2021 WEBBER</p>
-          <p class="pt-2">All rights reserved</p>
-          <div class="flex gap-7 items-center pt-10">
-            <div>
-              <a href="#"
-                ><img src="./assests/img/logos-section/twitter.svg" alt=""
-              /></a>
+      <footer class="bg-gray-100">
+        <div
+          class="grid md:grid-cols-2 lg:grid-cols-3 py-20 md:px-28 pl-10 gap-y-14 justify-between md:gap-10 lg:gap-32 max-w-[1440px] w-full mx-auto"
+        >
+          <div class="col1 max-w-[480px] w-full">
+            <a href=""><img src="./assests/img/logo.svg" alt="" /></a>
+            <p class="font-bold"><a href="#">WEBBER</a></p>
+            <p class="pt-[32px]">Copyright © 2021 WEBBER</p>
+            <p class="pt-2">All rights reserved</p>
+            <div class="flex gap-7 items-center pt-10">
+              <div>
+                <a href="#"
+                  ><img src="./assests/img/logos-section/twitter.svg" alt=""
+                /></a>
+              </div>
+              <div>
+                <a href="#"
+                  ><img src="./assests/img/logos-section/youtube.svg" alt=""
+                /></a>
+              </div>
             </div>
-            <div>
-              <a href="#"
-                ><img src="./assests/img/logos-section/youtube.svg" alt=""
-              /></a>
-            </div>
-          </div>
-          </div>
-       
-
-        <div class="col2 flex gap-14 md:gap-10 lg:justify-between"> 
-          <div class="col2">
-            <h1 class="font-medium text-[20px] leading-[30px] text-gray-800">
-              Company
-            </h1>
-            <ul class="leading-5">
-              <ol class="my-4 pt-2">
-                <a
-                  href="#"
-                  class="text-[16x] font-normal text-gray-800 leading-[26px] py-[12px]"
-                  >About us</a
-                >
-              </ol>
-              <ol class="my-4">
-                <a
-                  href="#"
-                  class="text-[16x] font-normal text-gray-800 leading-[26px]"
-                  >Blog</a
-                >
-              </ol>
-              <ol class="my-4">
-                <a
-                  href="#"
-                  class="text-[16x] font-normal text-gray-800 leading-[26px] py-[12px]"
-                  >Contact us</a
-                >
-              </ol>
-              <ol class="my-4">
-                <a
-                  href="#"
-                  class="text-[16x] font-normal text-gray-800 leading-[26px] py-[12px]"
-                  >Pricing</a
-                >
-              </ol>
-              <ol class="my-4">
-                <a
-                  href="#"
-                  class="text-[16x] font-normal text-gray-800 leading-[26px] py-[12px]"
-                  >Testimonial</a
-                >
-              </ol>
-            </ul>
           </div>
 
-          <div class="col3 ">
-            <h1 class="font-medium text-[20px] leading-[30px] text-gray-800">
-              Support
-            </h1>
-            <ul>
-              <ol class="my-4 pt-2">
-                <a
-                  href="#"
-                  class="text-[16x] font-normal text-gray-800 leading-[26px] py-[12px]"
-                  >help Center</a
-                >
-              </ol>
-              <ol class="my-4">
-                <a
-                  href="#"
-                  class="text-[16x] font-normal text-gray-800 leading-[26px] py-[12px]"
-                  >Terms of service</a
-                >
-              </ol>
-              <ol class="my-4">
-                <a
-                  href="#"
-                  class="text-[16x] font-normal text-gray-800 leading-[26px] py-[12px]"
-                  >Legal</a
-                >
-              </ol>
-              <ol class="my-4">
-                <a
-                  href="#"
-                  class="text-[16x] font-normal text-gray-800 leading-[26px] py-[12px]"
-                  >Privacy policy</a
-                >
-              </ol>
-              <ol class="my-4">
-                <a
-                  href="#"
-                  class="text-[16x] font-normal text-gray-800 leading-[26px] py-[12px]"
-                  >Status</a
-                >
-              </ol>
-            </ul>
+          <div class="col2 flex gap-14 md:gap-10 lg:justify-between">
+            <div class="col2">
+              <h1 class="font-medium text-[20px] leading-[30px] text-gray-800">
+                Company
+              </h1>
+              <ul class="leading-5">
+                <ol class="my-4 pt-2">
+                  <a
+                    href="#"
+                    class="text-[16x] font-normal text-gray-800 leading-[26px] py-[12px]"
+                    >About us</a
+                  >
+                </ol>
+                <ol class="my-4">
+                  <a
+                    href="#"
+                    class="text-[16x] font-normal text-gray-800 leading-[26px]"
+                    >Blog</a
+                  >
+                </ol>
+                <ol class="my-4">
+                  <a
+                    href="#"
+                    class="text-[16x] font-normal text-gray-800 leading-[26px] py-[12px]"
+                    >Contact us</a
+                  >
+                </ol>
+                <ol class="my-4">
+                  <a
+                    href="#"
+                    class="text-[16x] font-normal text-gray-800 leading-[26px] py-[12px]"
+                    >Pricing</a
+                  >
+                </ol>
+                <ol class="my-4">
+                  <a
+                    href="#"
+                    class="text-[16x] font-normal text-gray-800 leading-[26px] py-[12px]"
+                    >Testimonial</a
+                  >
+                </ol>
+              </ul>
+            </div>
+
+            <div class="col3">
+              <h1 class="font-medium text-[20px] leading-[30px] text-gray-800">
+                Support
+              </h1>
+              <ul>
+                <ol class="my-4 pt-2">
+                  <a
+                    href="#"
+                    class="text-[16x] font-normal text-gray-800 leading-[26px] py-[12px]"
+                    >help Center</a
+                  >
+                </ol>
+                <ol class="my-4">
+                  <a
+                    href="#"
+                    class="text-[16x] font-normal text-gray-800 leading-[26px] py-[12px]"
+                    >Terms of service</a
+                  >
+                </ol>
+                <ol class="my-4">
+                  <a
+                    href="#"
+                    class="text-[16x] font-normal text-gray-800 leading-[26px] py-[12px]"
+                    >Legal</a
+                  >
+                </ol>
+                <ol class="my-4">
+                  <a
+                    href="#"
+                    class="text-[16x] font-normal text-gray-800 leading-[26px] py-[12px]"
+                    >Privacy policy</a
+                  >
+                </ol>
+                <ol class="my-4">
+                  <a
+                    href="#"
+                    class="text-[16x] font-normal text-gray-800 leading-[26px] py-[12px]"
+                    >Status</a
+                  >
+                </ol>
+              </ul>
+            </div>
           </div>
-           </div>
 
           <div class="col4">
             <h1 class="font-medium text-[20px] leading-[30px] text-gray-800">
@@ -524,9 +586,8 @@
               </div>
             </div>
           </div>
-       
-      </div>
-    </footer>
+        </div>
+      </footer>
     </div>
   </body>
 </html>
