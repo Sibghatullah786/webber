@@ -19,3 +19,6 @@ background: linear-gradient(274.03deg, #06B6D4 0%, #0284C7 100%);
 .home_shadow{
   box-shadow: inset 0px 3px 10px rgba(255, 255, 255, 0.5);
 }
+.pricing_shadow{
+  box-shadow: 20px 22px 24px 0px rgba(23, 18, 63, 0.12);
+}

@@ -3,472 +3,478 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600;700&family=Mulish:wght@300;400;500;600;700;800;900&family=Nunito+Sans:wght@800&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600;700&family=Mulish:wght@300;400;500;600;700;800;900&family=Nunito+Sans:wght@800&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="./dist/output.css" />
     <link rel="stylesheet" href="./src/input.css" />
     <title>Pricing</title>
   </head>
-  <body class=" bg-gray-50 font-Mulish home_gradient">
+  <body class="bg-gray-50 font-Mulish home_gradient">
     <div class="container-div mx-auto h-screen">
       <!-- Header Section -->
       <header class="">
         <div
-          class="head flex justify-between max-w-[1280px] pt-[30px] w-full mx-auto items-center  "
+          class="head flex justify-between max-w-[1280px] pt-[30px] w-full mx-auto items-center"
         >
           <div class="logo pt-4">
-            <a href="./index.html"><img src="./assests/img/logo.svg" alt="" /></a>
-            <p class="text-center ">
-              <a class="font-black text-[14px] leading-[14px] tracking-[0.5px] text-[#27272A]" href="./index.html">WEBBER</a>
+            <a href="./index.html"
+              ><img src="./assests/img/logo.svg" alt=""
+            /></a>
+            <p class="text-center">
+              <a
+                class="font-black text-[14px] leading-[14px] tracking-[0.5px] text-[#27272A]"
+                href="./index.html"
+                >WEBBER</a
+              >
             </p>
           </div>
-          <nav>
-            <div class="">
-              <ul class="flex gap-[30px] text-[#18181B]">
-                <li>
-                  <a href="./index.html"
-                    >Overview</a
-                  >
-                </li>
-                <li><a class="border-b pb-[6px] border-[#18181B]" href="./pricing.html">Pricing</a></li>
-                <li><a href="./casestudy.html">Case Studies</a></li>
-                <li><a href="#FAQ">FAQ</a></li>
-              </ul>
-            </div>
+          <nav class="sm:block hidden">
+            <ul class="flex gap-[30px] text-[#18181B]">
+              <li>
+                <a href="./index.html">Overview</a>
+              </li>
+              <li>
+                <a
+                  class="border-b pb-[6px] border-[#18181B]"
+                  href="./pricing.html"
+                  >Pricing</a
+                >
+              </li>
+              <li><a href="./casestudy.html">Case Studies</a></li>
+              <li><a href="#FAQ">FAQ</a></li>
+            </ul>
           </nav>
           <div class="signin-button">
-            <button class="bg-cyan-100 px-[20px] py-[12px] text-[#0E7490] text-[14px] font-normal leading-[14px]">
-              Sign In
+            <button
+              class="bg-cyan-100 px-[20px] py-[12px] text-[#0E7490] text-[14px] font-normal leading-[14px] invisible md:visible"
+            >
+              <img
+                class="max-w-[70%] mt-[20px] block visible md::block md:hidden"
+                src="./assests/img/bars-solid.svg"
+                alt=""
+              />
+              <a href="" class="invisible md:visible">Sign In</a>
             </button>
           </div>
         </div>
       </header>
-      <div class="max-w-[1440px] pt-[100px] bg-[#A5F3FCCC] blur-[500px]">
-
-      </div>
+      <div class="max-w-[1440px] pt-[100px] bg-[#A5F3FCCC] blur-[500px]"></div>
       <!-- Title Section -->
       <div class="">
         <h1
-          class="text-8xl font-black text-center leading-[115px] text-[#1F2937]"
+          class="text-4xl leading-[50px] lg:text-8xl font-black text-center lg:leading-[115px] text-[#1F2937]"
         >
           SIMPLE PRICING
         </h1>
         <p
-          class="max-w-[800px] w-full mx-auto font-normal text-gray-600 text-[20px] text-center pt-3"
+          class="md:max-w-[620px] lg:max-w-[800px] w-full mx-auto font-normal text-gray-600 text-[16px] lg:text-[20px] text-center px-[20px] lg:pt-3"
         >
           No contracts. No surprise fees. Register now or try out the Webbber
           free trial so you’re absolutely sure that it’s the right fit for your
           frontend team
         </p>
       </div>
-      <div class="flex justify-center mt-[52px]">
+      <div
+        class="flex md:flex-row flex-col justify-center mt-[52px] items-center gap-3 md:gap-0"
+      >
         <button
-          class="px-[25px] py-[16px] section-gradient text-white text-[12px] leading-3 font-semibold"
+          class="px-[25px] py-[16px] section-gradient text-white text-[12px] leading-3 font-semibold max-w-[107px]"
         >
           MONTHLY
         </button>
         <button
-          class="px-[30px] py-[16px] text-[#0E7490] bg-cyan-100 items-center text-[12px] leading-3 font-semibold"
+          class="px-[30px] py-[16px] text-[#0E7490] bg-cyan-100 items-center text-[12px] leading-3 font-semibold max-w-[107px]"
         >
           YEARLY
         </button>
       </div>
       <!-- PRICING TABLE -->
-      <table class="mt-[130px] max-w-[1200px] w-full mx-auto mb-[200px]">
-        <tr class="row1 mb-[100px] font-nunito">
-          <th></th>
-          <th
+      <div
+        class="pricing-table grid grid-cols-2 lg:grid-cols-4 mt-[130px] max-w-[1200px] w-full mx-auto mb-[200px]"
+      >
+        <div class="col1 flex flex-col gap-12 pt-[90px] lg:pl-0 pl-5 md:pl-20">
+          <p></p>
+          <p></p>
+          <p class="font-normal text-gray-800 text-[16px] leading-4">
+            All limited links
+          </p>
+          <p class="font-normal text-gray-800 text-[16px] leading-4">
+            Own analytics platform
+          </p>
+          <p class="font-normal text-gray-800 text-[16px] leading-4">
+            Chat support
+          </p>
+          <p class="font-normal text-gray-800 text-[16px] leading-4">
+            Number of users
+          </p>
+          <p class="font-normal text-gray-800 text-[16px] leading-4">
+            Optimize hashtags
+          </p>
+          <p class="font-normal text-gray-800 text-[16px] leading-4">
+            Account manager
+          </p>
+          <p class="font-normal text-gray-800 text-[16px] leading-4">
+            Number of articles
+          </p>
+          <p class="font-normal text-gray-800 text-[16px] leading-4">
+            Satisfaction guaranteed
+          </p>
+          <p></p>
+        </div>
+        <div class="col2 flex flex-col items-center gap-12">
+          <p
             class="font-extrabold text-[28px] leading-[38px] text-gray-600 text-center"
           >
             Starter
-          </th>
-          <th
+          </p>
+          <p
+            class="font-bold text-gray-800 text-[36px] leading-[46px] font-montserrat text-center"
+          >
+            $20<span class="font-medium text-gray-600 text-[16px] leading-4">
+              /month</span
+            >
+          </p>
+
+          <img class="" src="./assests/img/pricing-img/Path.svg" alt="" />
+
+          <img src="./assests/img/pricing-img/Path.svg" alt="" />
+
+          <img src="./assests/img/pricing-img/Path.svg" alt="" />
+
+          <p
+            class="font-normal text-[17px] leading-[21px] text-[#231D4F] text-center"
+          >
+            1 user
+          </p>
+
+          <img src="./assests/img/pricing-img/Path.svg" alt="" />
+
+          <img src="./assests/img/pricing-img/cross.svg" alt="" />
+
+          <img src="./assests/img/pricing-img/cross.svg" alt="" />
+
+          <img src="./assests/img/pricing-img/Path.svg" alt="" />
+
+          <button
+            class="font-semibold text-[16px] leading-[16px] text-[#0E7490] bg-cyan-100 text-center px-[37px] py-[15px]"
+          >
+            Choose plan
+          </button>
+        </div>
+
+        <div
+          class="col3 flex flex-col items-center gap-12 border-2-white bg-white py-[50px] pricing_shadow mt-[-50px]"
+        >
+          <p
             class="font-extrabold text-[28px] leading-[38px] text-center text-transparent bg-clip-text bg-gradient-to-r from-[#06B6D4] to-[#0284C7]"
           >
-           <h1 class="">Pro</h1> 
-          </th>
-          <th
+            Pro
+          </p>
+          <p
+            class="font-bold text-gray-800 text-[36px] leading-[46px] font-montserrat text-center"
+          >
+            $100<span class="font-medium text-gray-600 text-[16px] leading-4">
+              /month</span
+            >
+          </p>
+
+          <img class="" src="./assests/img/pricing-img/Path.svg" alt="" />
+          <img src="./assests/img/pricing-img/Path.svg" alt="" />
+          <img src="./assests/img/pricing-img/Path.svg" alt="" />
+          <p
+            class="font-normal text-[17px] leading-[21px] text-[#231D4F] text-center"
+          >
+            3 users
+          </p>
+          <img src="./assests/img/pricing-img/Path.svg" alt="" />
+
+          <img src="./assests/img/pricing-img/path.svg" alt="" />
+
+          <img src="./assests/img/pricing-img/cross.svg" alt="" />
+
+          <img src="./assests/img/pricing-img/Path.svg" alt="" />
+
+          <button
+            class="font-semibold text-[16px] leading-[16px] text-white section-gradient text-center px-[37px] py-[15px]"
+          >
+            Choose plan
+          </button>
+        </div>
+
+        <div class="col4 flex flex-col items-center gap-12">
+          <p
             class="font-extrabold text-[28px] leading-[38px] text-gray-600 text-center"
           >
             Enterprise
-          </th>
-        </tr>
-        <tr class="row2">
-          <th></th>
-          <th class="pt-[20px]">
-            <p class="font-bold text-gray-800 text-[36px] leading-[46px] font-montserrat ">
-              $20<span class="font-medium text-gray-600 text-[16px] leading-4">
-                /month</span
-              >
-            </p>
-          </th>
-          <th class="pt-[20px]">
-            <p class="font-bold text-gray-800 text-[36px] leading-[46px] font-montserrat">
-              $100<span class="font-medium text-gray-600 text-[16px] leading-4">
-                /month</span
-              >
-            </p>
-          </th>
-          <th class="pt-[20px]">
-            <p class="font-bold text-gray-800 text-[36px] leading-[46px] font-montserrat">
-              $200<span class="font-medium text-gray-600 text-[16px] leading-4">
-                /month</span
-              >
-            </p>
-          </th>
-        </tr>
-        <tr class="row3">
-          <td class="font-normal text-gray-800 text-[16px] leading-4">
-            All limited links
-          </td>
-          <td align="center" class="py-[45px]">
-            <img src="./assests/img/pricing-img/Path.svg" alt="" />
-          </td>
-          <td align="center" class="py-[45px]">
-            <img src="./assests/img/pricing-img/Path.svg" alt="" />
-          </td>
-          <td align="center" class="py-[45px]">
-            <img src="./assests/img/pricing-img/Path.svg" alt="" />
-          </td>
-        </tr>
-        <tr class="row4">
-          <td class="font-normal text-gray-800 text-[16px] leading-4">
-            Own analytics platform
-          </td>
-          <td align="center">
-            <img src="./assests/img/pricing-img/Path.svg" alt="" />
-          </td>
-          <td align="center">
-            <img src="./assests/img/pricing-img/Path.svg" alt="" />
-          </td>
-          <td align="center">
-            <img src="./assests/img/pricing-img/Path.svg" alt="" />
-          </td>
-        </tr>
-        <tr class="row5">
-          <td class="font-normal text-gray-800 text-[16px] leading-4">
-            Chat support
-          </td>
-          <td align="center" class="py-[45px]">
-            <img src="./assests/img/pricing-img/Path.svg" alt="" />
-          </td>
-          <td align="center" class="py-[45px]">
-            <img src="./assests/img/pricing-img/Path.svg" alt="" />
-          </td>
-          <td align="center" class="py-[45px]">
-            <img src="./assests/img/pricing-img/Path.svg" alt="" />
-          </td>
-        </tr>
-        <tr class="row6">
-          <td class="font-normal text-gray-800 text-[16px] leading-4">
-            Number of users
-          </td>
-          <td align="center">
-            <p class="font-normal text-[17px] leading-[21px] text-[#231D4F]">
-              1 user
-            </p>
-          </td>
-          <td align="center">
-            <p class="font-normal text-[17px] leading-[21px] text-[#231D4F] font-nunito">
-              3 user
-            </p>
-          </td>
-          <td align="center">
-            <p class="font-normal text-[17px] leading-[21px] text-[#231D4F]">
-              Unlimited
-            </p>
-          </td>
-        </tr>
-        <tr class="row7">
-          <td class="font-normal text-gray-800 text-[16px] leading-4">
-            Optimize hashtags
-          </td>
-          <td align="center" class="py-[45px]">
-            <img src="./assests/img/pricing-img/Path.svg" alt="" />
-          </td>
-          <td align="center" class="py-[45px]">
-            <img src="./assests/img/pricing-img/Path.svg" alt="" />
-          </td>
-          <td align="center" class="py-[45px]">
-            <img src="./assests/img/pricing-img/Path.svg" alt="" />
-          </td>
-        </tr>
-        <tr class="row8">
-          <td class="font-normal text-gray-800 text-[16px] leading-4">
-            Account manager
-          </td>
-          <td align="center">
-            <img src="./assests/img/pricing-img/cross.svg" alt="" />
-          </td>
-          <td align="center">
-            <img src="./assests/img/pricing-img/Path.svg" alt="" />
-          </td>
-          <td align="center">
-            <img src="./assests/img/pricing-img/Path.svg" alt="" />
-          </td>
-        </tr>
-        <tr class="row9">
-          <td class="font-normal text-gray-800 text-[16px] leading-4">
-            Number of articles
-          </td>
-          <td align="center" class="py-[45px]">
-            <img src="./assests/img/pricing-img/cross.svg" alt="" />
-          </td>
-          <td align="center" class="py-[45px]">
-            <img src="./assests/img/pricing-img/cross.svg" alt="" />
-          </td>
-          <td align="center" class="py-[45px]">
-            <img src="./assests/img/pricing-img/Path.svg" alt="" />
-          </td>
-        </tr>
-        <tr class="row10">
-          <td class="font-normal text-gray-800 text-[16px] leading-4">
-            Satisfaction guaranteed
-          </td>
-          <td align="center">
-            <img src="./assests/img/pricing-img/Path.svg" alt="" />
-          </td>
-          <td align="center">
-            <img src="./assests/img/pricing-img/Path.svg" alt="" />
-          </td>
-          <td align="center">
-            <img src="./assests/img/pricing-img/Path.svg" alt="" />
-          </td>
-        </tr>
-        <tr class="row11 font-montserrat">
-          <th></th>
-          <th class="pt-[50px]">
-            <button
-              class="font-semibold text-[16px] leading-[16px] text-[#0E7490] bg-cyan-100 text-center px-[37px] py-[15px]"
+          </p>
+          <p
+            class="font-bold text-gray-800 text-[36px] leading-[46px] font-montserrat text-center"
+          >
+            $200<span class="font-medium text-gray-600 text-[16px] leading-4">
+              /month</span
             >
-              Choose plan
-            </button>
-          </th>
-          <th class="pt-[50px]">
-            <button
-              class="font-semibold text-[16px] leading-[16px] text-white section-gradient text-center px-[37px] py-[15px]"
-            >
-              Choose plan
-            </button>
-          </th>
-          <th class="pt-[50px]">
-            <button
-              class="font-semibold text-[16px] leading-[16px] text-[#0E7490] bg-cyan-100 text-center px-[37px] py-[15px]"
-            >
-              Choose plan
-            </button>
-          </th>
-        </tr>
-      </table>
-      <!-- FAQ section -->
-      <section id="FAQ">
-      <div
-        class="faq-section mx-auto mt-[150px] bg-[#F4F4F5]"
-      >
-        <h1
-          class="text-6xl font-black text-center text-gray-800 leading-[60px] pt-[80px] tracking-[-2px]"
-        >
-          Frequently asked questions
-        </h1>
-        <div class="grid grid-cols-2 mt-[110px] w-[1280px] mx-auto place-items-center">
-          <div class="col1 max-w-[592px] w-full">
-            <h1 class="font-semibold text-[24px] leading-6 text-gray-800 mb-3 font-nunito tracking-[-1px]">
-              How do I use the webber for 3+ members?
-            </h1>
-            <p
-              class=" font-normal text-[16px] leading-6 text-gray-600 mb-[60px]"
-            >
-              Magnam reprehenderit quisquam corporis sunt ratione. Non magnam
-              et. Suscipit quia et aspernatur officiis quo. Officia sed eaque
-              enim doloribus quisquam mollitia nihil.
-            </p>
+          </p>
 
-            <h1 class="font-semibold text-[24px] leading-6 text-gray-800 mb-3 font-nunito tracking-[-1px]">
-              Whats the best way to make the most out of it?
-            </h1>
-            <p
-              class="font-normal text-[16px] leading-6 text-gray-600 mb-[60px]"
-            >
-              Magnam reprehenderit quisquam corporis sunt ratione. Non magnam
-              et. Suscipit quia et aspernatur officiis quo. Officia sed eaque
-              enim doloribus quisquam mollitia nihil.
-            </p>
+          <img class="" src="./assests/img/pricing-img/Path.svg" alt="" />
 
-            <h1 class="font-semibold text-[24px] leading-6 text-gray-800 mb-3 font-nunito tracking-[-1px]">
-              How do I use the webber for 3+ members
-            </h1>
-            <p
-              class="font-normal text-[16px] leading-6 text-gray-600 mb-[60px]"
-            >
-              Magnam reprehenderit quisquam corporis sunt ratione. Non magnam
-              et. Suscipit quia et aspernatur officiis quo. Officia sed eaque
-              enim doloribus quisquam mollitia nihil.
-            </p>
-          </div>
+          <img src="./assests/img/pricing-img/Path.svg" alt="" />
 
-          <div class="col2 max-w-[592px] w-full">
-            <h1 class="font-semibold text-[24px] leading-6 text-gray-800 mb-3 font-nunito tracking-[-1px]">
-              What does early access mean
-            </h1>
-            <p
-              class="font-normal text-[16px] leading-6 text-gray-600 mb-[60px]"
-            >
-              Magnam reprehenderit quisquam corporis sunt ratione. Non magnam
-              et. Suscipit quia et aspernatur officiis quo. Officia sed eaque
-              enim doloribus quisquam mollitia nihil.
-            </p>
+          <img src="./assests/img/pricing-img/Path.svg" alt="" />
 
-            <h1 class="font-semibold text-[24px] leading-6 text-gray-800 mb-3 font-nunito tracking-[-1px] max-w-[630px] w-full">
-              How are enterprise package customers accomodated?
-            </h1>
-            <p
-              class="font-normal text-[16px] leading-6 text-gray-600 mb-[60px]"
-            >
-              Magnam reprehenderit quisquam corporis sunt ratione. Non magnam
-              et. Suscipit quia et aspernatur officiis quo. Officia sed eaque
-              enim doloribus quisquam mollitia nihil.
-            </p>
-        
-            <h1 class="font-semibold text-[24px] leading-6 text-gray-800 mb-3 tracking-[-1px] font-nunito">
-              How do I use the webber for 3+ members
-            </h1>
-            <p
-              class="font-normal text-[16px] leading-6 text-gray-600 mb-[60px]"
-            >
-              Magnam reprehenderit quisquam corporis sunt ratione. Non magnam
-              et. Suscipit quia et aspernatur officiis quo. Officia sed eaque
-              enim doloribus quisquam mollitia nihil.
-            </p>
-          </div>
+          <p
+            class="font-normal text-[17px] leading-[21px] text-[#231D4F] text-center"
+          >
+            Unlimited
+          </p>
+
+          <img src="./assests/img/pricing-img/Path.svg" alt="" />
+
+          <img src="./assests/img/pricing-img/path.svg" alt="" />
+
+          <img src="./assests/img/pricing-img/path.svg" alt="" />
+
+          <img src="./assests/img/pricing-img/Path.svg" alt="" />
+
+          <button
+            class="font-semibold text-[16px] leading-[16px] text-[#0E7490] bg-cyan-100 text-center px-[37px] py-[15px]"
+          >
+            Choose plan
+          </button>
         </div>
       </div>
-    </section>
+
+      <!-- FAQ section -->
+      <section id="FAQ">
+        <div class="faq-section mx-auto mt-[150px] bg-[#F4F4F5]">
+          <h1
+            class="lg:text-6xl text-4xl font-black text-center text-gray-800 lg:leading-[60px] leading-[40px] pt-[80px] tracking-[-2px]"
+          >
+            Frequently asked questions
+          </h1>
+          <div
+            class="grid lg:grid-cols-2 md:grid-cols-2 grid-cols-1 mt-[110px] lg:w-[1280px] mx-auto place-items-center"
+          >
+            <div class="col1 max-w-[300px] lg:max-w-[592px] w-full mx-auto">
+              <h1
+                class="font-semibold text-[24px] leading-6 text-gray-800 mb-3 font-nunito tracking-[-1px]"
+              >
+                How do I use the webber for 3+ members?
+              </h1>
+              <p
+                class="font-normal text-[16px] leading-6 text-gray-600 mb-[60px]"
+              >
+                Magnam reprehenderit quisquam corporis sunt ratione. Non magnam
+                et. Suscipit quia et aspernatur officiis quo. Officia sed eaque
+                enim doloribus quisquam mollitia nihil.
+              </p>
+
+              <h1
+                class="font-semibold text-[24px] leading-6 text-gray-800 mb-3 font-nunito tracking-[-1px]"
+              >
+                Whats the best way to make the most out of it?
+              </h1>
+              <p
+                class="font-normal text-[16px] leading-6 text-gray-600 mb-[60px]"
+              >
+                Magnam reprehenderit quisquam corporis sunt ratione. Non magnam
+                et. Suscipit quia et aspernatur officiis quo. Officia sed eaque
+                enim doloribus quisquam mollitia nihil.
+              </p>
+
+              <h1
+                class="font-semibold text-[24px] leading-6 text-gray-800 mb-3 font-nunito tracking-[-1px]"
+              >
+                How do I use the webber for 3+ members
+              </h1>
+              <p
+                class="font-normal text-[16px] leading-6 text-gray-600 mb-[60px]"
+              >
+                Magnam reprehenderit quisquam corporis sunt ratione. Non magnam
+                et. Suscipit quia et aspernatur officiis quo. Officia sed eaque
+                enim doloribus quisquam mollitia nihil.
+              </p>
+            </div>
+
+            <div class="col2 lg:max-w-[592px] max-w-[300px] mx-auto w-full">
+              <h1
+                class="font-semibold text-[24px] leading-6 text-gray-800 mb-3 font-nunito tracking-[-1px]"
+              >
+                What does early access mean
+              </h1>
+              <p
+                class="font-normal text-[16px] leading-6 text-gray-600 mb-[60px]"
+              >
+                Magnam reprehenderit quisquam corporis sunt ratione. Non magnam
+                et. Suscipit quia et aspernatur officiis quo. Officia sed eaque
+                enim doloribus quisquam mollitia nihil.
+              </p>
+
+              <h1
+                class="font-semibold text-[24px] leading-6 text-gray-800 mb-3 font-nunito tracking-[-1px] max-w-[630px] w-full"
+              >
+                How are enterprise package customers accomodated?
+              </h1>
+              <p
+                class="font-normal text-[16px] leading-6 text-gray-600 mb-[60px]"
+              >
+                Magnam reprehenderit quisquam corporis sunt ratione. Non magnam
+                et. Suscipit quia et aspernatur officiis quo. Officia sed eaque
+                enim doloribus quisquam mollitia nihil.
+              </p>
+
+              <h1
+                class="font-semibold text-[24px] leading-6 text-gray-800 mb-3 tracking-[-1px] font-nunito"
+              >
+                How do I use the webber for 3+ members
+              </h1>
+              <p
+                class="font-normal text-[16px] leading-6 text-gray-600 mb-[60px]"
+              >
+                Magnam reprehenderit quisquam corporis sunt ratione. Non magnam
+                et. Suscipit quia et aspernatur officiis quo. Officia sed eaque
+                enim doloribus quisquam mollitia nihil.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
       <!-- GET section -->
       <div class="getresults section-gradient mx-auto py-[60px]">
-          <h1
-            class="font-extrabold text-[48px] leading-[48px] text-white text-center"
+        <h1
+          class="font-extrabold md:text-[48px] text-[30px] leading-[48px] text-white text-center"
+        >
+          Get results, no matter what
+        </h1>
+        <p
+          class="text-white text-[16px] leading-6 text-center mt-4 mb-8 max-w-[547px] w-full mx-auto"
+        >
+          Start your free trial today, you get all the pro features for 1 month
+          for you and your team. If you think its not for you can easily
+          unsubscribe
+        </p>
+        <div class="flex justify-center">
+          <button
+            class="px-[32px] py-[16px] bg-white text-cyan-700 font-montserrat"
           >
-            Get results, no matter what
-          </h1>
-          <p class="text-white text-[16px] leading-6 text-center mt-4 mb-8 max-w-[547px] w-full mx-auto">
-            Start your free trial today, you get all the pro features for 1
-            month for you and your team. If you think its not for you can easily
-            unsubscribe
-          </p>
-          <div class="flex justify-center">
-            <button class="px-[32px] py-[16px] bg-white text-cyan-700 font-montserrat">
-              Start free trial
-            </button>
-          </div>
+            Start free trial
+          </button>
+        </div>
       </div>
 
       <!-- Footer -->
-      <div class="justify-center mx-auto bg-gray-100 flex py-20 px-28">
-        <div class="col1 max-w-[480px] w-full">
-          <a href=""><img src="./assests/img/logo.svg" alt="" /></a>
-          <p class="font-bold"><a href="#">WEBBER</a></p>
-          <p class="pt-[32px]">Copyright © 2021 WEBBER</p>
-          <p class="pt-2">All rights reserved</p>
-          <div class="flex gap-7 items-center pt-10">
-            <div>
-              <a href="#"
-                ><img src="./assests/img/logos-section/twitter.svg" alt=""
-              /></a>
-            </div>
-            <div>
-              <a href="#"
-                ><img src="./assests/img/logos-section/youtube.svg" alt=""
-              /></a>
+      <footer class="bg-gray-100">
+        <div
+          class="grid md:grid-cols-2 lg:grid-cols-3 py-20 md:px-28 gap-y-14 justify-center md:gap-10 lg:gap-32 max-w-[1440px] w-full mx-auto"
+        >
+          <div class="col1 max-w-[480px] w-full mx-auto">
+            <a href=""><img src="./assests/img/logo.svg" alt="" /></a>
+            <p class="font-bold"><a href="#">WEBBER</a></p>
+            <p class="pt-[32px]">Copyright © 2021 WEBBER</p>
+            <p class="pt-2">All rights reserved</p>
+            <div class="flex gap-7 items-center pt-10">
+              <div>
+                <a href="#"
+                  ><img src="./assests/img/logos-section/twitter.svg" alt=""
+                /></a>
+              </div>
+              <div>
+                <a href="#"
+                  ><img src="./assests/img/logos-section/youtube.svg" alt=""
+                /></a>
+              </div>
             </div>
           </div>
-        </div>
 
-        <div class="cont-2 flex max-w-[635px] w-full gap-[70px] text-[#27272A]">
-          <div class="col2">
-            <h1 class="font-medium text-[20px] leading-[30px] text-gray-800">
-              Company
-            </h1>
-            <ul class="leading-5">
-              <ol class="my-4 pt-2">
-                <a
-                  href="#"
-                  class="text-[16x] font-normal text-gray-800 leading-[26px] py-[12px]"
-                  >About us</a
-                >
-              </ol>
-              <ol class="my-4">
-                <a
-                  href="#"
-                  class="text-[16x] font-normal text-gray-800 leading-[26px]"
-                  >Blog</a
-                >
-              </ol>
-              <ol class="my-4">
-                <a
-                  href="#"
-                  class="text-[16x] font-normal text-gray-800 leading-[26px] py-[12px]"
-                  >Contact us</a
-                >
-              </ol>
-              <ol class="my-4">
-                <a
-                  href="#"
-                  class="text-[16x] font-normal text-gray-800 leading-[26px] py-[12px]"
-                  >Pricing</a
-                >
-              </ol>
-              <ol class="my-4">
-                <a
-                  href="#"
-                  class="text-[16x] font-normal text-gray-800 leading-[26px] py-[12px]"
-                  >Testimonial</a
-                >
-              </ol>
-            </ul>
-          </div>
+          <div class="col2 flex gap-14 md:gap-10 lg:justify-between">
+            <div class="col2">
+              <h1 class="font-medium text-[20px] leading-[30px] text-gray-800">
+                Company
+              </h1>
+              <ul class="leading-5">
+                <ol class="my-4 pt-2">
+                  <a
+                    href="#"
+                    class="text-[16x] font-normal text-gray-800 leading-[26px] py-[12px]"
+                    >About us</a
+                  >
+                </ol>
+                <ol class="my-4">
+                  <a
+                    href="#"
+                    class="text-[16x] font-normal text-gray-800 leading-[26px]"
+                    >Blog</a
+                  >
+                </ol>
+                <ol class="my-4">
+                  <a
+                    href="#"
+                    class="text-[16x] font-normal text-gray-800 leading-[26px] py-[12px]"
+                    >Contact us</a
+                  >
+                </ol>
+                <ol class="my-4">
+                  <a
+                    href="#"
+                    class="text-[16x] font-normal text-gray-800 leading-[26px] py-[12px]"
+                    >Pricing</a
+                  >
+                </ol>
+                <ol class="my-4">
+                  <a
+                    href="#"
+                    class="text-[16x] font-normal text-gray-800 leading-[26px] py-[12px]"
+                    >Testimonial</a
+                  >
+                </ol>
+              </ul>
+            </div>
 
-          <div class="col3">
-            <h1 class="font-medium text-[20px] leading-[30px] text-gray-800">
-              Support
-            </h1>
-            <ul>
-              <ol class="my-4 pt-2">
-                <a
-                  href="#"
-                  class="text-[16x] font-normal text-gray-800 leading-[26px] py-[12px]"
-                  >help Center</a
-                >
-              </ol>
-              <ol class="my-4">
-                <a
-                  href="#"
-                  class="text-[16x] font-normal text-gray-800 leading-[26px] py-[12px]"
-                  >Terms of service</a
-                >
-              </ol>
-              <ol class="my-4">
-                <a
-                  href="#"
-                  class="text-[16x] font-normal text-gray-800 leading-[26px] py-[12px]"
-                  >Legal</a
-                >
-              </ol>
-              <ol class="my-4">
-                <a
-                  href="#"
-                  class="text-[16x] font-normal text-gray-800 leading-[26px] py-[12px]"
-                  >Privacy policy</a
-                >
-              </ol>
-              <ol class="my-4">
-                <a
-                  href="#"
-                  class="text-[16x] font-normal text-gray-800 leading-[26px] py-[12px]"
-                  >Status</a
-                >
-              </ol>
-            </ul>
+            <div class="col3">
+              <h1 class="font-medium text-[20px] leading-[30px] text-gray-800">
+                Support
+              </h1>
+              <ul>
+                <ol class="my-4 pt-2">
+                  <a
+                    href="#"
+                    class="text-[16x] font-normal text-gray-800 leading-[26px] py-[12px]"
+                    >help Center</a
+                  >
+                </ol>
+                <ol class="my-4">
+                  <a
+                    href="#"
+                    class="text-[16x] font-normal text-gray-800 leading-[26px] py-[12px]"
+                    >Terms of service</a
+                  >
+                </ol>
+                <ol class="my-4">
+                  <a
+                    href="#"
+                    class="text-[16x] font-normal text-gray-800 leading-[26px] py-[12px]"
+                    >Legal</a
+                  >
+                </ol>
+                <ol class="my-4">
+                  <a
+                    href="#"
+                    class="text-[16x] font-normal text-gray-800 leading-[26px] py-[12px]"
+                    >Privacy policy</a
+                  >
+                </ol>
+                <ol class="my-4">
+                  <a
+                    href="#"
+                    class="text-[16x] font-normal text-gray-800 leading-[26px] py-[12px]"
+                    >Status</a
+                  >
+                </ol>
+              </ul>
+            </div>
           </div>
 
           <div class="col4">
@@ -494,7 +500,7 @@
             </div>
           </div>
         </div>
-      </div>
+      </footer>
     </div>
   </body>
 </html>
