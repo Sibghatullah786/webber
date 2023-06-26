@@ -657,10 +657,6 @@ video {
   margin-top: -50px;
 }
 
-.mt-\[-530px\] {
-  margin-top: -530px;
-}
-
 .mt-\[-80px\] {
   margin-top: -80px;
 }
@@ -1120,6 +1116,11 @@ video {
 .bg-clip-text {
   -webkit-background-clip: text;
           background-clip: text;
+}
+
+.object-cover {
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 
 .px-28 {
