@@ -617,6 +617,10 @@ video {
   margin-left: 1.25rem;
 }
 
+.mt-10 {
+  margin-top: 2.5rem;
+}
+
 .mt-2 {
   margin-top: 0.5rem;
 }
@@ -635,10 +639,6 @@ video {
 
 .mt-8 {
   margin-top: 2rem;
-}
-
-.mt-\[-20px\] {
-  margin-top: -20px;
 }
 
 .mt-\[-25px\] {
@@ -817,12 +817,16 @@ video {
   max-width: 350px;
 }
 
+.max-w-\[370px\] {
+  max-width: 370px;
+}
+
 .max-w-\[393px\] {
   max-width: 393px;
 }
 
-.max-w-\[406px\] {
-  max-width: 406px;
+.max-w-\[400px\] {
+  max-width: 400px;
 }
 
 .max-w-\[469px\] {
@@ -885,10 +889,6 @@ video {
   max-width: 80%;
 }
 
-.max-w-\[800px\] {
-  max-width: 800px;
-}
-
 .max-w-\[90\%\] {
   max-width: 90%;
 }
@@ -901,8 +901,12 @@ video {
   max-width: 981px;
 }
 
-.max-w-\[\] {
-  max-width: ;
+.max-w-\[30px\] {
+  max-width: 30px;
+}
+
+.max-w-\[380px\] {
+  max-width: 380px;
 }
 
 .cursor-pointer {
@@ -943,6 +947,10 @@ video {
 
 .justify-between {
   justify-content: space-between;
+}
+
+.gap-10 {
+  gap: 2.5rem;
 }
 
 .gap-12 {
@@ -1269,10 +1277,6 @@ video {
   padding-top: 0.5rem;
 }
 
-.pt-3 {
-  padding-top: 0.75rem;
-}
-
 .pt-4 {
   padding-top: 1rem;
 }
@@ -1353,11 +1357,6 @@ video {
 
 .text-5xl {
   font-size: 3rem;
-  line-height: 1;
-}
-
-.text-8xl {
-  font-size: 6rem;
   line-height: 1;
 }
 
@@ -1470,10 +1469,6 @@ video {
   line-height: 2.25rem;
 }
 
-.leading-\[115px\] {
-  line-height: 115px;
-}
-
 .leading-\[14px\] {
   line-height: 14px;
 }
@@ -1488,10 +1483,6 @@ video {
 
 .leading-\[21px\] {
   line-height: 21px;
-}
-
-.leading-\[25px\] {
-  line-height: 25px;
 }
 
 .leading-\[26px\] {
@@ -1720,6 +1711,14 @@ video {
     height: 90%;
   }
 
+  .md\:max-w-\[406px\] {
+    max-width: 406px;
+  }
+
+  .md\:max-w-\[500px\] {
+    max-width: 500px;
+  }
+
   .md\:max-w-\[520px\] {
     max-width: 520px;
   }
@@ -1746,10 +1745,6 @@ video {
 
   .md\:max-w-\[80\%\] {
     max-width: 80%;
-  }
-
-  .md\:max-w-\[406px\] {
-    max-width: 406px;
   }
 
   .md\:grid-cols-2 {
@@ -1836,6 +1831,10 @@ video {
 
   .lg\:mt-\[-160px\] {
     margin-top: -160px;
+  }
+
+  .lg\:mt-\[-20px\] {
+    margin-top: -20px;
   }
 
   .lg\:mt-\[130px\] {
