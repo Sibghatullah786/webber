@@ -19,14 +19,14 @@
       <div
         class="head flex justify-between max-w-[1280px] pt-[30px] w-full mx-auto items-center  "
       >
-        <div class="logo pt-4">
+        <div class="logo pl-5 lg:pt-4">
           <a href="./index.html"><img src="./assests/img/logo.svg" alt="" /></a>
           <p class="text-center ">
             <a class="font-black text-[14px] leading-[14px] tracking-[0.5px] text-[#27272A]" href="./index.html">WEBBER</a>
           </p>
         </div>
-        <nav>
-          <div class="">
+        <nav >
+          <div class="sm:block hidden">
             <ul class="flex gap-[30px] text-[#18181B]">
               <li>
                 <a href="./index.html"
@@ -40,8 +40,15 @@
           </div>
         </nav>
         <div class="signin-button">
-          <button class="bg-cyan-100 px-[20px] py-[12px] text-[#0E7490] text-[14px] font-normal leading-[14px]">
-            Sign In
+          <button
+            class="bg-cyan-100 px-[20px] py-[12px] text-[#0E7490] text-[14px] font-normal leading-[14px] invisible md:visible"
+          >
+            <img
+              class="max-w-[70%] mt-[20px] block visible md::block md:hidden"
+              src="./assests/img/bars-solid.svg"
+              alt=""
+            />
+            <a href="" class="invisible md:visible">Sign In</a>
           </button>
         </div>
       </div>
@@ -49,9 +56,9 @@
     <div class="max-w-[1440px] pt-[100px] bg-[#A5F3FCCC] blur-[500px]">
     </div>
         <div
-      class="row1 flex max-w-[1280px] w-full mx-auto mt-[-50px] justify-between"
+      class="row1 flex lg:flex-row flex-col-reverse items-center  max-w-[1280px] w-full mx-auto mt-[-50px] justify-between"
     >
-      <div class="r1-c1 max-w-[500px] w-full pt-[92px]">
+      <div class="r1-c1 md:max-w-[500px] max-w-[380px] w-full pt-[92px]">
         <p
           class="text-[14px] tracking-[-1%] font-medium leading-[14px] text-[#52525B]"
         >
@@ -87,7 +94,7 @@
           </p>
         </div>
       </div>
-      <div class="r1-c2 max-w-[485] w-full flex justify-end">
+      <div class="r1-c2 md:max-w-[485] max-w-[380] w-full flex mx-auto justify-center lg:justify-end">
         <img src="./assests/img/stories/img1.svg" alt="" />
       </div>
     </div>
