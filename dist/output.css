@@ -845,10 +845,6 @@ video {
   max-width: 500px;
 }
 
-.max-w-\[547px\] {
-  max-width: 547px;
-}
-
 .max-w-\[570px\] {
   max-width: 570px;
 }
@@ -1724,6 +1720,10 @@ video {
     max-width: 520px;
   }
 
+  .md\:max-w-\[547px\] {
+    max-width: 547px;
+  }
+
   .md\:max-w-\[620px\] {
     max-width: 620px;
   }
@@ -1767,6 +1767,11 @@ video {
   .md\:px-28 {
     padding-left: 7rem;
     padding-right: 7rem;
+  }
+
+  .md\:px-0 {
+    padding-left: 0px;
+    padding-right: 0px;
   }
 
   .md\:pl-20 {
