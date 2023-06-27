@@ -901,6 +901,10 @@ video {
   max-width: 981px;
 }
 
+.max-w-\[\] {
+  max-width: ;
+}
+
 .cursor-pointer {
   cursor: pointer;
 }
@@ -1744,6 +1748,10 @@ video {
     max-width: 80%;
   }
 
+  .md\:max-w-\[406px\] {
+    max-width: 406px;
+  }
+
   .md\:grid-cols-2 {
     grid-template-columns: repeat(2, minmax(0, 1fr));
   }
@@ -1764,14 +1772,14 @@ video {
     gap: 2.5rem;
   }
 
-  .md\:px-28 {
-    padding-left: 7rem;
-    padding-right: 7rem;
-  }
-
   .md\:px-0 {
     padding-left: 0px;
     padding-right: 0px;
+  }
+
+  .md\:px-28 {
+    padding-left: 7rem;
+    padding-right: 7rem;
   }
 
   .md\:pl-20 {

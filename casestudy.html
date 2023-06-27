@@ -19,14 +19,14 @@
       <div
         class="head flex justify-between max-w-[1280px] pt-[30px] w-full mx-auto items-center  "
       >
-        <div class="logo pt-4">
+        <div class="logo pl-5 lg:pt-4">
           <a href="./index.html"><img src="./assests/img/logo.svg" alt="" /></a>
           <p class="text-center ">
             <a class="font-black text-[14px] leading-[14px] tracking-[0.5px] text-[#27272A]" href="./index.html">WEBBER</a>
           </p>
         </div>
         <nav>
-          <div class="">
+          <div class="sm:block hidden">
             <ul class="flex gap-[30px] text-[#18181B]">
               <li>
                 <a href="./index.html"
@@ -40,8 +40,15 @@
           </div>
         </nav>
         <div class="signin-button">
-          <button class="bg-cyan-100 px-[20px] py-[12px] text-[#0E7490] text-[14px] font-normal leading-[14px]">
-            Sign In
+          <button
+            class="bg-cyan-100 px-[20px] py-[12px] text-[#0E7490] text-[14px] font-normal leading-[14px] invisible md:visible"
+          >
+            <img
+              class="max-w-[70%] mt-[20px] block visible md::block md:hidden"
+              src="./assests/img/bars-solid.svg"
+              alt=""
+            />
+            <a href="" class="invisible md:visible">Sign In</a>
           </button>
         </div>
       </div>
@@ -52,19 +59,19 @@
         <!-- Title Section -->
     <div class="">
       <h1
-        class="text-8xl font-black text-center leading-[115px] text-[#1F2937]"
+        class="text-4xl leading-[50px] lg:text-8xl font-black text-center lg:leading-[115px] text-[#1F2937]"
       >
         CASE STUDIES
       </h1>
       <p
-        class="max-w-[800px] w-full mx-auto font-normal text-[#52525B] text-[20px] text-center pt-3 leading-[25px]"
+        class="md:max-w-[620px] lg:max-w-[800px] w-full mx-auto font-normal text-gray-600 text-[16px] lg:text-[20px] text-center px-[20px] lg:pt-3"
       >
         See how leading organizations and freelance developers have used Webber
         to tackle different use cases and get ahead of the competition
       </p>
 
       <div
-        class="border max-w-[406px] w-full flex justify-center mx-auto mt-[52px] px-6 py-[19px] border-gray-300 gap-3"
+        class="border md:max-w-[406px] w-full flex md:flex-row max-w-[300px] justify-center mx-auto mt-[52px] px-6 py-[19px] border-gray-300 gap-3"
       >
         <div class="flex ">
           <p>Region:</p>
