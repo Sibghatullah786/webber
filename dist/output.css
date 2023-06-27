@@ -901,10 +901,6 @@ video {
   max-width: 981px;
 }
 
-.max-w-\[400px\] {
-  max-width: 400px;
-}
-
 .cursor-pointer {
   cursor: pointer;
 }
@@ -917,10 +913,6 @@ video {
   grid-template-columns: repeat(2, minmax(0, 1fr));
 }
 
-.flex-row {
-  flex-direction: row;
-}
-
 .flex-col {
   flex-direction: column;
 }
@@ -931,10 +923,6 @@ video {
 
 .place-items-center {
   place-items: center;
-}
-
-.items-start {
-  align-items: flex-start;
 }
 
 .items-center {
@@ -1219,11 +1207,6 @@ video {
 .py-\[70px\] {
   padding-top: 70px;
   padding-bottom: 70px;
-}
-
-.px-10 {
-  padding-left: 2.5rem;
-  padding-right: 2.5rem;
 }
 
 .pb-\[100px\] {
@@ -1530,10 +1513,6 @@ video {
   line-height: 98px;
 }
 
-.leading-\[26pxx\] {
-  line-height: 26pxx;
-}
-
 .tracking-\[-0\.5px\] {
   letter-spacing: -0.5px;
 }
@@ -1700,6 +1679,10 @@ video {
     margin-top: 130px;
   }
 
+  .md\:flex {
+    display: flex;
+  }
+
   .md\:hidden {
     display: none;
   }
@@ -1744,6 +1727,10 @@ video {
     max-width: 620px;
   }
 
+  .md\:max-w-\[676px\] {
+    max-width: 676px;
+  }
+
   .md\:max-w-\[70\%\] {
     max-width: 70%;
   }
@@ -1760,10 +1747,6 @@ video {
     max-width: 80%;
   }
 
-  .md\:max-w-\[676px\] {
-    max-width: 676px;
-  }
-
   .md\:grid-cols-2 {
     grid-template-columns: repeat(2, minmax(0, 1fr));
   }
@@ -1774,10 +1757,6 @@ video {
 
   .md\:flex-row {
     flex-direction: row;
-  }
-
-  .md\:justify-end {
-    justify-content: flex-end;
   }
 
   .md\:gap-0 {
@@ -1796,6 +1775,10 @@ video {
   .md\:px-28 {
     padding-left: 7rem;
     padding-right: 7rem;
+  }
+
+  .md\:pl-0 {
+    padding-left: 0px;
   }
 
   .md\:pl-20 {
@@ -1890,14 +1873,6 @@ video {
     margin-top: 91px;
   }
 
-  .lg\:mb-\[32px\] {
-    margin-bottom: 32px;
-  }
-
-  .lg\:flex {
-    display: flex;
-  }
-
   .lg\:h-\[268px\] {
     height: 268px;
   }
@@ -1942,10 +1917,6 @@ video {
     max-width: 947px;
   }
 
-  .lg\:max-w-\[676px\] {
-    max-width: 676px;
-  }
-
   .lg\:grid-cols-2 {
     grid-template-columns: repeat(2, minmax(0, 1fr));
   }
@@ -1964,10 +1935,6 @@ video {
 
   .lg\:items-end {
     align-items: flex-end;
-  }
-
-  .lg\:items-center {
-    align-items: center;
   }
 
   .lg\:justify-between {
