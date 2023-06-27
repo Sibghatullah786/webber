@@ -1856,10 +1856,6 @@ video {
     height: 628px;
   }
 
-  .lg\:w-\[1280px\] {
-    width: 1280px;
-  }
-
   .lg\:max-w-\[100\%\] {
     max-width: 100%;
   }
