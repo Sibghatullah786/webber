@@ -580,6 +580,11 @@ video {
   margin-bottom: 9px;
 }
 
+.my-44 {
+  margin-top: 11rem;
+  margin-bottom: 11rem;
+}
+
 .mb-2 {
   margin-bottom: 0.5rem;
 }
@@ -980,6 +985,10 @@ video {
   border-width: 1px;
 }
 
+.border-2 {
+  border-width: 2px;
+}
+
 .border-b {
   border-bottom-width: 1px;
 }
@@ -996,6 +1005,11 @@ video {
 .border-\[\#18181B\] {
   --tw-border-opacity: 1;
   border-color: rgb(24 24 27 / var(--tw-border-opacity));
+}
+
+.border-cyan-100 {
+  --tw-border-opacity: 1;
+  border-color: rgb(207 250 254 / var(--tw-border-opacity));
 }
 
 .border-gray-300 {
